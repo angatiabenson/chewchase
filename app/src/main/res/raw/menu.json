@@ -1,0 +1,107 @@
+[
+  {
+    "id": "1bn23r4be22",
+    "name": "Grilled Chicken",
+    "description": "Tender chicken breast, grilled to perfection",
+    "price": 12.99,
+    "category": "Main Course"
+  },
+  {
+    "id": "2cr45t5uf23",
+    "name": "Caesar Salad",
+    "description": "Crisp romaine lettuce, Parmesan cheese, and Caesar dressing",
+    "price": 7.99,
+    "category": "Salad"
+  },
+  {
+    "id": "3de67v6gh34",
+    "name": "Spaghetti Bolognese",
+    "description": "Classic Italian pasta with rich meat sauce",
+    "price": 11.99,
+    "category": "Pasta"
+  },
+  {
+    "id": "4ef78w7ij45",
+    "name": "Mushroom Soup",
+    "description": "Creamy mushroom soup, served hot",
+    "price": 5.99,
+    "category": "Soup"
+  },
+  {
+    "id": "5fg89x8kl56",
+    "name": "Ribeye Steak",
+    "description": "10oz ribeye, cooked to your liking",
+    "price": 24.99,
+    "category": "Main Course"
+  },
+  {
+    "id": "6gh90y9mn67",
+    "name": "Shrimp Cocktail",
+    "description": "Chilled shrimp served with cocktail sauce",
+    "price": 9.99,
+    "category": "Appetizer"
+  },
+  {
+    "id": "7hi01z0on78",
+    "name": "Chocolate Cake",
+    "description": "Rich and moist chocolate cake",
+    "price": 6.99,
+    "category": "Dessert"
+  },
+  {
+    "id": "8ij12a1pq89",
+    "name": "Margherita Pizza",
+    "description": "Classic pizza with fresh tomatoes, mozzarella, and basil",
+    "price": 13.99,
+    "category": "Pizza"
+  },
+  {
+    "id": "9jk23b2qr90",
+    "name": "Vegetable Stir Fry",
+    "description": "Fresh vegetables stir-fried with a tangy sauce",
+    "price": 10.99,
+    "category": "Vegetarian"
+  },
+  {
+    "id": "10kl34c3rs1",
+    "name": "Grilled Salmon",
+    "description": "Salmon fillet, grilled with lemon butter sauce",
+    "price": 18.99,
+    "category": "Seafood"
+  },
+  {
+    "id": "11mn45d4st2",
+    "name": "Chicken Caesar Wrap",
+    "description": "Grilled chicken with Caesar salad in a soft tortilla wrap",
+    "price": 9.99,
+    "category": "Sandwich"
+  },
+  {
+    "id": "12no56e5tu3",
+    "name": "Tomato Soup",
+    "description": "Fresh tomato soup with a touch of cream",
+    "price": 5.99,
+    "category": "Soup"
+  },
+  {
+    "id": "13op67f6vw4",
+    "name": "Veggie Burger",
+    "description": "Plant-based burger served with lettuce and tomato",
+    "price": 11.99,
+    "category": "Vegetarian"
+  },
+  {
+    "id": "14pq78g7wx5",
+    "name": "Tiramisu",
+    "description": "Classic Italian dessert with coffee-soaked ladyfingers",
+    "price": 7.99,
+    "category": "Dessert"
+  },
+  {
+    "id": "15qr89h8xy6",
+    "name": "Seafood Paella",
+    "description": "Traditional Spanish rice dish with seafood",
+    "price": 19.99,
+    "category": "Seafood"
+  }
+]

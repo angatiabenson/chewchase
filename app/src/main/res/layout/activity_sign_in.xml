@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".views.auth.SignInActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:padding="12dp"
+        android:gravity="center"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/logo"
+            app:tint="@null"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Login To Your Account"
+            android:textStyle="bold"
+            android:textAppearance="?textAppearanceHeadline6"
+            android:layout_marginTop="16dp"/>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:errorEnabled="true"
+            android:layout_marginTop="16dp"
+            app:hintEnabled="true"
+            android:hint="Email Account"
+            app:hintTextAppearance="?textAppearanceBody2"
+            app:errorTextColor="@color/colorError"
+            app:errorTextAppearance="?textAppearanceBody2"
+            android:id="@+id/ed.email.layout"
+            app:boxStrokeErrorColor="@color/colorError">
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:id="@+id/ed.email"
+                android:textAppearance="?textAppearanceBody2"
+                android:inputType="textEmailAddress"
+                android:layout_height="wrap_content"/>
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:errorEnabled="true"
+            app:hintEnabled="true"
+            android:hint="Password"
+            app:passwordToggleTint="@color/primaryColor"
+            app:passwordToggleEnabled="true"
+            app:hintTextAppearance="?textAppearanceBody2"
+            app:errorTextColor="@color/colorError"
+            app:errorTextAppearance="?textAppearanceBody2"
+            android:id="@+id/ed.password.layout"
+            app:boxStrokeErrorColor="@color/colorError">
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:textAppearance="?textAppearanceBody2"
+                android:inputType="textPassword"
+                android:id="@+id/ed.password"
+                android:layout_height="wrap_content"/>
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sign In"
+            android:padding="10dp"
+            android:id="@+id/btn.sign.in"
+            android:textColor="@color/white"
+            android:layout_marginTop="12dp"
+            android:textAppearance="?textAppearanceBody1"
+            app:cornerRadius="10dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginBottom="16dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Are you a new customer? "
+            android:textAppearance="?textAppearanceBody1"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sign Up"
+            android:id="@+id/txt.sign.up"
+            android:textStyle="bold"
+            android:textAppearance="?textAppearanceBody1"
+            android:textColor="@color/secondaryColor"/>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
